@@ -9,14 +9,8 @@
 cecs456-project/
 │
 ├── chest_xray/              # Dataset
-├── src/
-│   ├── __init__.py          # Marks src as a package
-│   ├── data_loader.py       # Loads and preprocesses the dataset
-│   ├── model.py             # Defines the neural network model architecture
-│   ├── train.py             # Trains and evaluates the model
-├── notebooks/
-│   ├── code.ipynb          # Main notebook
-├── venv/ 
+├── venv/                    # Virtual environment
+├── code.ipynb              # Main notebook 
 ├── requirements.txt        # Dependencies
 ├── README.md               # Project documentation
 ```
