@@ -36,7 +36,7 @@ venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
 
-### 3. Use the virtual environment as kernel in .ipynb
+### 3. Use the virtual environment (venv) as kernel in .ipynb
 ### 4. Run cells in code.ipynb
 
 ## Dataset
