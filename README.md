@@ -3,6 +3,18 @@
 ### Randolf Pangilin JR
 ### Machine Learning Project
 
+# Project Structure
+
+```bash
+cecs456-project/
+│
+├── chest_xray/
+├── venv/                # Virtual environment (optional to share)
+├── requirements.txt     # Dependencies
+├── code.ipynb        # Main notebook
+└── README.md            # Project documentation
+```
+
 # How to run the code:
 ### 1. Create and activate virtual environment:
 
