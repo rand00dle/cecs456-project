@@ -45,8 +45,8 @@ Once downloaded, the folder structure should look like this:
 ```bash
 project/
 │-- chest_xray/
+│   ├── test/
 │   ├── train/
-│   ├── val/
-│   └── test/
+│   └── val/
 ```
 
