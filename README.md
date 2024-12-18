@@ -15,7 +15,7 @@ cecs456-project/
 └── README.md            # Project documentation
 ```
 
-# How to run the code:
+# How to run the code (if you don't have the dependencies installed in your kernel):
 ### 1. Create and activate virtual environment:
 
 ```bash
