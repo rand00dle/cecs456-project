@@ -8,11 +8,17 @@
 ```bash
 cecs456-project/
 │
-├── chest_xray/
-├── venv/                # Virtual environment (optional to share)
-├── requirements.txt     # Dependencies
-├── code.ipynb        # Main notebook
-└── README.md            # Project documentation
+├── chest_xray/              # Dataset
+├── src/
+│   ├── __init__.py          # Marks src as a package
+│   ├── data_loader.py       # Loads and preprocesses the dataset
+│   ├── model.py             # Defines the neural network model architecture
+│   ├── train.py             # Trains and evaluates the model
+├── notebooks/
+│   ├── code.ipynb          # Main notebook
+├── venv/ 
+├── requirements.txt        # Dependencies
+├── README.md               # Project documentation
 ```
 
 # How to run the code (if you don't have the dependencies installed in your kernel):
@@ -30,5 +36,5 @@ venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
 
-### 3. Use the virtual environment as kernel in .ipnyb
-### 4. Run cells in code.ipnyb
+### 3. Use the virtual environment as kernel in .ipynb
+### 4. Run cells in code.ipynb
