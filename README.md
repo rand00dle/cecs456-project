@@ -29,3 +29,6 @@ venv\Scripts\activate  # Windows
 ```bash
 pip install -r requirements.txt
 ```
+
+### 3. Use the virtual environment as kernel in .ipnyb
+### 4. Run cells in code.ipnyb
