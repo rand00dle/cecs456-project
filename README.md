@@ -38,3 +38,21 @@ pip install -r requirements.txt
 
 ### 3. Use the virtual environment as kernel in .ipynb
 ### 4. Run cells in code.ipynb
+
+## Dataset
+The chest X-ray dataset is not included in this repository due to size limitations. 
+Please download the dataset from [Kaggle Chest X-Ray Pneumonia](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) and place it in a folder named `chest_xray` in the root directory.
+
+```bash
+mkdir chest_xray
+```
+
+Once downloaded, the folder structure should look like this:
+```bash
+project/
+│-- chest_xray/
+│   ├── train/
+│   ├── val/
+│   └── test/
+```
+
